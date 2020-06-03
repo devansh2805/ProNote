@@ -1,0 +1,170 @@
+.fab{
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 10px;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.fab:hover {
+    opacity: 0.7;
+}
+
+.fa-google {
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 30px;
+  background-color:  #dd4b39;
+  color: white;
+}
+.fa-linkedin-in{
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 30px;
+  background-color: #007bb5;
+  color: white;
+}
+.fa-github
+{
+  color:#2db74c;
+  font-size: 35px;
+  padding: 7px;
+  background-color: black;
+  border-radius: 30px;
+}
+
+.bef
+{
+  min-height: 80px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: white;
+}
+
+.bef ul li a:hover
+{
+  background-color: rgba(0, 0, 0, 0) !important;
+  color:#578ceb;
+}
+.bef ul li a
+{
+  color:black;
+}
+.bluecolor
+{
+  color:#578ceb;
+}
+.bluecol
+{
+  background-color:#57AAFF;
+}
+.co
+{
+  background-color:#65ccb8;
+}
+
+.aft
+{
+  min-height: 50px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #182628;
+}
+
+.aft ul li a:hover
+{
+  background-color: rgba(0, 0, 0, 0) !important;
+  color:#1ce4dc;
+}
+.aft ul li a
+{
+  color:white;
+}
+
+.bef #nav-mobile
+{
+  margin-top: 8px;
+}
+
+.bef img
+{
+  margin-top:18px;
+}
+.aft img
+{
+  margin-top:13px;
+}
+
+.sl1
+{
+  background: rgb(242,112,156);
+  background: linear-gradient(90deg, rgba(242,112,156,1) 0%, rgba(255,148,114,1) 100%);
+
+}
+.sl3
+{
+  background: #8A2387;
+  background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);
+  background: linear-gradient(to right, #F27121, #E94057, #8A2387); 
+}
+
+.sl2
+{
+  background-image: url("sl6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.sl2lay
+{
+  background: linear-gradient(90deg, rgba(5,117,230,0.8) 0%, rgba(0,242,96,0.8) 100%);
+  position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+}
+.sl4
+{
+  background-image: url("sl7.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.sl4lay
+{
+  background: linear-gradient(90deg, rgba(36,198,220,0.8) 0%, rgba(81,74,157,0.8) 100%);
+  position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+}
+.btn:hover
+{
+  background-color:transparent !important;
+}
+
+.sl1 img
+{
+  float: left;
+  height:700px !important;
+  width:900px !important;
+  margin-left: 20px;
+}
+
+.sl3 img
+{
+  float:right;
+  height:500px !important;
+  width:900px !important;
+  margin-top:200px; 
+  margin-right: 20px;
+}
+
+/*.fg
+    {
+      font-size:60px !important;
+      color:#2db74c;
+    }*/
+
+

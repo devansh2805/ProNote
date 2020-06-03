@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Documentation</title>
+  <link rel="shortcut icon" href="pnlogo.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/doc.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+    <link href='https://fonts.googleapis.com/css?family=Alef' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">    
+</head>
+<body>
+  <div class="navbar-fixed">
+  <nav class="bef">
+    <div class="nav-wrapper"> 
+      <a href="#" class="brand-logo"><img id="logoimg" src="images/logo1.png" height="40" style="float:left;margin-left:40px;"></a>
+      <a href="#" class="sidenav-trigger" data-target="mobile-nav">
+      <i class="material-icons">menu</i>
+    </a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="download.html">Download</a></li>
+        <li><a href="documentation.html">Documentation</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+  </div>
+  <ul class="sidenav" id="mobile-nav">
+      <li><a href="index.html">Home</a></li>
+        <li><a href="download.html">Download</a></li>
+        <li><a href="documentation.html">Documentation</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+</ul>
+  <ul id="slide-out" class="sidenav sidenav-fixed hide-on-med-and-down">
+      <li class="no-padding">
+          <ul class="collapsible collapsible-accordion">
+            <li class="bold"><a class="collapsible-header waves-light" style="color:white"tabindex="0">File</a>
+              <div class="collapsible-body">
+                <ul class="side">
+                  <li><a onclick="open2()" href="#file1">New</a></li>
+                  <li><a onclick="open2()" href="#file1">Open</a></li>
+                  <li><a onclick="open2()" href="#file1">Save</a></li>
+                  <li><a onclick="open2()" href="#file1">Save As</a></li>
+                  <li><a onclick="open2()" href="#file1">Exit</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="bold"><a class="collapsible-header waves-light"style="color:white" tabindex="0">Edit</a>
+              <div class="collapsible-body">
+                <ul class="side">
+                  <li><a onclick="open3()" href="#edit1">Cut</a></li>
+                  <li><a onclick="open3()" href="#edit1">Copy</a></li>
+                  <li><a onclick="open3()"href="#edit1">Paste</a></li>
+                  <li><a onclick="open3()" href="#edit1">Delete</a></li>
+                  <li><a onclick="open3()" href="#edit1">Undo</a></li>
+                  <li><a onclick="open3()" href="#edit1">Redo</a></li>
+                  <li><a onclick="open3()" href="#edit1">Select All</a></li>
+                  <li><a onclick="open3()" href="#edit1">Time Stamp</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="bold"><a class="collapsible-header waves-light" style="color:white" tabindex="0">Paragraph</a>
+              <div class="collapsible-body">
+                <ul class="side">
+                  <li><a onclick="open4()" href="#search1">Find</a></li>
+                  <li><a onclick="open4()" href="#search1">Replace</a></li>
+                  <li><a onclick="open4()" href="#search1">Left Align</a></li>
+                  <li><a onclick="open4()" href="#search1">Center Align</a></li>
+                  <li><a onclick="open4()" href="#search1">Right Align</a></li>
+                  <li><a onclick="open4()" href="#search1">Uppercase</a></li>
+                  <li><a onclick="open4()" href="#search1">Lowercase</a></li>
+                  <li><a onclick="open4()" href="#search1">Subscript</a></li>
+                  <li><a onclick="open4()" href="#search1">Superscript</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="bold"><a  class="collapsible-header waves-light"style="color:white" tabindex="0">Font</a>
+              <div class="collapsible-body">
+                <ul class="side">
+                  <li><a onclick="open5()" href="#font1">Font Settings</a></li>
+                  <li><a onclick="open5()" href="#font1">Bold</a></li>
+                  <li><a onclick="open5()" href="#font1">Italic</a></li>
+                  <li><a onclick="open5()" href="#font1">Underline</a></li>
+                  <li><a onclick="open5()" href="#font1">Strikethrough</a></li>
+                  <li><a onclick="open5()" href="#font1">Font Colour</a></li>
+                  <li><a onclick="open5()" href="#font1">Font Highlight</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </li>
+      <li><a href="#help1"onclick="open6()" class="waves-light" style="padding-left:15px;color:white">Help</a></li>
+      <li><a href="#faq1"onclick="open7()"class="waves-light" style="padding-left:15px;color:white">FAQs</a></li>
+    </ul>
+
+     
+
+  <div class="block">
+
+    <ul class="collapsible main popout">
+    <li id="file1">
+      <div class="collapsible-header main" style="background-color:#64b5f6;"><i class="medium material-icons">insert_drive_file</i><span class="text">File</span></div>
+      <div class="collapsible-body main"><span><h4>New</h4><b>New </b>is used to open a new ProNote document in a new window. <br><i class="small material-icons" style="font-size:20px">open_in_new</i> Ctrl+N
+        <hr>
+<h4>Open</h4><b>Open </b>is used to open an existing ProNote document present on the device in password protected file format. ProNote asks for the password when opening an existing document saved in the password protected file format.<br><i class="small material-icons" style="font-size:20px">open_in_new</i> Ctrl+O<hr>
+<h4>Save</h4><b>Save</b> is used to save the changes made in the ProNote document if the file has already been saved on the device or otherwise will execute the save as command to save the document on the device in password protected file format with a new name and a password.<br><i class="small material-icons" style="font-size:20px">open_in_new</i> Ctrl+S<hr>
+<h4>Save As</h4><b>Save as</b> is used to save a copy of the ProNote document on the device with a new name if the file has already been saved and asks for the new name and password for saving the document in password protected file format.<br><i class="small material-icons" style="font-size:20px">open_in_new</i> Ctrl+Shift+S<hr>
+<h4>Exit</h4><b>Exit</b> is used to close the ProNote Document if it is saved on the device or asks the user to save the document and then closes it.<br><i class="small material-icons" style="font-size:20px">open_in_new</i> Ctrl+Shift+E<br>
+</span></div>
+    </li>
+    <li id="edit1">
+      <div class="collapsible-header main"style="background-color: #e0bbe4"><i class="medium material-icons">mode_edit</i><span class="text">Edit</span></div>
+      <div class="collapsible-body main"><span><h4>Cut</h4><b>Cut </b>is used to delete the selected text and copy it to the clipboard. This function won't work if no text is selected.<br><i class="small material-icons" style="font-size:20px">open_in_new</i> Ctrl+X<hr><h4>Copy</h4><b>Copy</b> is used to copy the selected text to the clipboard. This function won't work if no text is selected.<br><i class="small material-icons" style="font-size:20px">open_in_new</i> Ctrl+C<hr><h4>Paste</h4><b>Paste </b>is used to insert the text copied on the clipboard.<br><i class="small material-icons" style="font-size:20px">open_in_new</i> Ctrl+V<hr><h4>Delete</h4><b>Delete </b>is used to delete the selected text. It deletes the next character if no text is selected.<br><i class="small material-icons" style="font-size:20px">open_in_new</i> delete<hr><h4>Undo</h4><b>Undo </b>is used to cancel the previous action in the document.<br><i class="small material-icons" style="font-size:20px">open_in_new</i> Ctrl+Z<hr><h4>Redo</h4><b>Redo </b>is used to redo the action previously cancelled in the document.<br><i class="small material-icons" style="font-size:20px">open_in_new</i> Ctrl+Y<hr><h4>Select All</h4><b>Select All</b> is used to select all the text in the document.<br><i class="small material-icons" style="font-size:20px">open_in_new</i> Ctrl+A<hr><h4>Time Stamp</h4><b>Time Stamp</b> is used to insert the system date and time at the end of the document.<br><i class="small material-icons" style="font-size:20px">open_in_new</i> Ctrl+D <br></span></div>
+    </li>
+    <li id="search1">
+      <div class="collapsible-header main"style="background-color: #aff8db"><i class="medium material-icons">find_in_page</i><span class="text">Paragraph</span></div>
+      <div class="collapsible-body main"><span><h4>Find</h4><b>Find </b>is used to find an input text in the entire document and highlight the results.<br><i class="small material-icons" style="font-size:20px">open_in_new</i> Ctrl+F<hr><h4>Replace</h4><b>Replace </b>is used to find an input text and replace the text found with the replace text given by the user.<br><i class="small material-icons" style="font-size:20px">open_in_new</i> Ctrl+H<hr><h4>Left Align</h4><b>Left Align </b>is used to align the selected text to the left. If no text is selected, the text alignment is set to left for the text the user enters thereon.<br><i class="small material-icons" style="font-size:20px">open_in_new</i> Ctrl+L<hr><h4>Center Align</h4><b>Center Align </b>is used to align the selected text to the center. If no text is selected, the text alignment is set to center for the text the user enters thereon.<br><i class="small material-icons" style="font-size:20px">open_in_new</i> Ctrl+E<hr><h4>Right Align</h4><b>Right Align </b>is used to align the selected text to the right. If no text is selected, the text alignment is set to right for the text the user enters thereon.<br><i class="small material-icons" style="font-size:20px">open_in_new</i> Ctrl+R<hr><h4>Uppercase</h4><b>Uppercase </b>is used to change the case of the selected text to uppercase.<br><i class="small material-icons" style="font-size:20px">open_in_new</i> Ctrl+Shift+U<hr><h4>Lowercase</h4><b>Lowercase </b>is used to change the case of the selected text to lowercase.<br><i class="small material-icons" style="font-size:20px">open_in_new</i> Ctrl+Shift+L<hr><h4>Subscript</h4><b>Subscript </b>is used to make the selected text subscript to the main text. If no text is selected, the text written thereon will be in subscript.<br><i class="small material-icons" style="font-size:20px">open_in_new</i> Ctrl+Shift+-<hr><h4>Superscript</h4><b>Superscript </b>is used to make the selected text superscript to the main text. If no text is selected, the text written thereon will be in superscript.<br><i class="small material-icons" style="font-size:20px">open_in_new</i> Ctrl+Shift++<br></span></div>
+    </li>
+    <li id="font1">
+      <div class="collapsible-header main"style="background-color: #d7e7a9"><i class="medium material-icons">font_download</i><span class="text">Font</span></div>
+      <div class="collapsible-body main"><span><h4>Font Setings</h4><b>Font settings</b> allows the user to change the font family and also the font size. It changes the font settings for the text entered thereon if no text is selected. Can be used with any combinations of font stylings.<br><i class="small material-icons" style="font-size:20px">open_in_new</i> Ctrl+Shift+F<hr><h4>Bold</h4><b>Bold </b>is used to make the selected text bold. If no text is selected, the text entered thereon will be bold.Can be used with any combinations of font stylings.<br><i class="small material-icons" style="font-size:20px">open_in_new</i> Ctrl+B<hr><h4>Italic</h4><b>Italic </b>is used to make the selected text italic. If no text is selected, the text entered thereon will be italic. Can be used with any combinations of font stylings.<br><i class="small material-icons" style="font-size:20px">open_in_new</i> Ctrl+I<hr><h4>Underline</h4><b>Underline </b>is used to underline the selected text. If no text is selected, the text entered thereon will be underlined. Can be used with any combinations of font stylings.<br><i class="small material-icons" style="font-size:20px">open_in_new</i> Ctrl+U<hr><h4>Strikethrough</h4><b>Strikethrough </b>is used to strikeout the selected text. It displays the text with a horizontal line through its center. Can be used with any combinations of font stylings.<br><i class="small material-icons" style="font-size:20px">open_in_new</i> Ctrl+T<hr><h4>Font Color</h4><b>Font color</b> is used to give color for the selected text. Can be used with any combinations of font stylings.<br><i class="small material-icons" style="font-size:20px">open_in_new</i> Ctrl+Shift+C<hr><h4>Font Highlight</h4><b>Font highlight</b> is used to give background color for the selected text. Can be used with any combinations of font stylings.<br><i class="small material-icons" style="font-size:20px">open_in_new</i> Ctrl+Shift+B<br></span></div>
+    </li>
+    <li id="help1">
+      <div class="collapsible-header main"style="background-color: #afcbff"><i class="medium material-icons">help</i><span class="text">Help</span></div>
+      <div class="collapsible-body main"><span><h4>Help</h4><b>Help</b> gives the link to this documentation for ProNote where you can find all the functionalities of ProNote.<br><i class="small material-icons" style="font-size:20px">open_in_new</i> Ctrl+Shift+H <hr><h4>About</h4><b>About</b> gives all the details of the ProNote application and its developer.<br><i class="small material-icons" style="font-size:20px">open_in_new</i> Ctrl+Shift+A</span></div>
+    </li>
+    <li id="faq1">
+      <div class="collapsible-header main"style="background-color:#fbf7d5 "><i class="medium material-icons">question_answer</i><span class="text">Frequently Asked Questions (FAQ)</span></div>
+      <div class="collapsible-body main"><span><h4>How does find and replace work?</h4>To find a particular text in your document, click on find on the paragraph toolbar. Enter the text you want to find. Find next will find its first occurence from the text after your cursor, Find previous will find it from the text before and Find all will highlight all of its occurences in the document.<br>To replace a text, go to replace on the paragraph toolbar. Enter the text you want to find and the text you want to replace it with. Find the text using Find Next button and click Replace to replace one occurence or Replace All to replace all occurences. <hr> <h4>How secure is ProNote in case of file renaming or deletion?</h4>ProNote aims in securing text documents. Hence, it is ensured that your data is safe and cannot be breached or accessed by anyone else. Although, there is no additional security in restricting someone from renaming or deleting your file, your data is always stored in encrypted form and is only accessible by decryption when you open your file in ProNote by entering your password. Thus, your data can only be accessed by you! <hr><h4>When is the password for my document saved?</h4>When saving a new file in Pronote, you have to enter a password which you will use thereon to access your data when you open your document in ProNote. Opening the document in any other editor will only display the encrypted data. So to access your data in Pronote, you need to always enter your password. Every file has its own unique password entered by the user. <hr> <h4>Can I create .ppf files using any other text editor?</h4>Although you can create .ppf extension files in other text editors, you cannot secure your files with a password. So you should always create .ppf files in ProNote. <hr><h4>Can I open my file in any other editor?</h4>Yes, you can open .ppf files in other text editors but the data displayed would be in encrypted form. So always open .ppf files in ProNote after entering your password to access your data. <hr><h4>How is ProNote different from other text editors?</h4>Along with securing your text files, ProNote also provides lot of font styling and text editing functionalities which enhances the user experience and makes documenting easy. </span></div>
+    </li>
+  </ul>
+  </div>
+
+  <br>
+  <br>
+  <br><br><br><br><br><br><br>
+  <footer class="page-footer co">
+          <div class="container" style="position:relative;left:220px;">
+            <div class="row">
+              <div class="col l6 s12" style="margin-top: 20px">
+                <img src="images/SElogo4.png" height="60" style="float:left"><span style="margin-left:10px;font-family: Segoe UI;font-size: 20px">ProNote</span><br><span style="margin-left:10px;font-family: Segoe UI;font-size: 20px">Where text editing meets security.</span>
+                <p>
+                  <br><br>
+                  Images by: <a href="https://unsplash.com/" target="_blank" style="color:#182628">Unsplash</a>, <a href="https://pixabay.com/" target="_blank" style="color:#182628">Pixabay</a> and <a href="https://www.freepik.com/" target="_blank" style="color:#182628">Freepik</a>
+                </p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Stay Connected</h5>
+                <p class="grey-text text-lighten-4"><a target="_blank" href="mailto:help.pronote@gmail.com"><i class="fab fa-google"></i></a><a target="_blank" href="https://github.com/devansh2805"><i class="fab fa-github"></i></a><a target="_blank" href="https://www.linkedin.com/in/devansh-shah-0abb34197"><i class="fab fa-linkedin-in"></i></a></p> <br><span style="font-size: 13px">Website Developed By: <a target="_blank" style="color:white" href="https://www.linkedin.com/in/ojasvi-naik-009980194">Ojasvi Naik</a> </span>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container" style="position:relative;left:220px;">
+            © 2020 Devansh Shah.All rights reserved.
+            </div>
+          </div>
+    </footer>
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.0.0.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
+<script type="text/javascript"src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.1/js/materialize.js"></script>
+
+
+<script>
+  $(document).ready(function(){
+    $('.collapsible').collapsible();
+    $('.sidenav').sidenav();
+    $(".button-collapse").sideNav();
+  });
+  $(window).scroll(function(){
+
+            if($(window).scrollTop()>300){
+              $('nav').addClass('aft');
+              $('nav').removeClass('bef');
+              $('#slide-out').addClass('saft');
+              $('#slide-out').removeClass('sbef');
+              $('#logoimg').attr("src","images/logo.png");;
+            }else{
+              $('nav').removeClass('aft');
+              $('nav').addClass('bef');
+              $('#slide-out').addClass('sbef');
+              $('#slide-out').removeClass('saft');
+              $('#logoimg').attr("src","images/logo1.png");
+            }
+
+          });
+  function open2()
+  {
+    elem = $('.collapsible.main')
+    var instance = M.Collapsible.getInstance(elem); 
+    instance.open(0);
+  };
+  function open3()
+  {
+    elem = $('.collapsible.main')
+    var instance = M.Collapsible.getInstance(elem); 
+    instance.open(1);
+  };
+  function open4()
+  {
+    elem = $('.collapsible.main')
+    var instance = M.Collapsible.getInstance(elem); 
+    instance.open(2);
+  };
+  function open5()
+  {
+    elem = $('.collapsible.main')
+    var instance = M.Collapsible.getInstance(elem); 
+    instance.open(3);
+  };
+  function open6()
+  {
+    elem = $('.collapsible.main')
+    var instance = M.Collapsible.getInstance(elem); 
+    instance.open(4);
+  };
+  function open7()
+  {
+    elem = $('.collapsible.main')
+    var instance = M.Collapsible.getInstance(elem); 
+    instance.open(5);
+  };
+</script>
+</body>
+</html>
+
